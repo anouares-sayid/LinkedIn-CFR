@@ -1,0 +1,32 @@
+/* main styles */
+* {
+    font-family: 'Segoe UI';
+}
+body{
+    width: 100%;
+}
+h1 {
+    font-weight: 600;
+    font-size: .9em;
+}
+.main{
+    width: 300px;
+    display: block;
+
+}
+.type_field{
+padding: 5%;
+}
+.number_field{
+    padding: 5%;
+
+}
+#runit{
+    float: right;
+    margin-bottom: 3px;
+}
+p {
+    font-weight: 500;
+    font-size: .8em;
+    margin-bottom: 10px;  
+}

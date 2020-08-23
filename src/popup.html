@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+      <div class="main">
+    <h1>linkedin CFR Extention</h1>
+    <p>Cancel friend requests</p>
+    <div class="type_field">
+    <label for="type">choose a type :</label>
+    <select id="type">
+      <option value="newest">newest</option>
+      <option value="oldest">oldest</option>
+    </select>
+</div>
+<div class="number_field">
+    <label for="friendrequests">Number of friend request to cancel:</label>
+
+    <input  type="number" id="friendrequests" name="friendrequests" min="1" max="100"/>
+
+    
+</div>
+<button type="submit" id="runit">Start</button>
+</div>
+    <script src="js/popup.js"></script>
+  </body>
+</html>
