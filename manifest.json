@@ -9,11 +9,11 @@
     ], 
     "browser_action": {
       "default_icon": {
-        "20": "images/linkedin.png",
-        "40": "images/linkedin.png"
+        "20": "src/images/linkedin.png",
+        "40": "src/images/linkedin.png"
       },
       "default_title": "LinkedIn CFR ",
-      "default_popup": "popup.html"
+      "default_popup": "src/popup.html"
     }
 
   
