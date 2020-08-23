@@ -3,6 +3,7 @@ this is a simple Microsoft edge browser extension that makes canceling following
 
 //this is the Js code that does all the job (because it's not clear in the js file ) 
 //comments will be added soon :) ....
+```javascript
  function Check(type) {
   var error = false;
   var error2 = false;
@@ -133,3 +134,4 @@ function Start(type, number) {
     }
   }
 }
+```
