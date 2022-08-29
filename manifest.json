@@ -1,13 +1,14 @@
-{   "manifest_version": 2,
+{   "manifest_version": 3,
     "name": "LinkedIn CFR",
     "author": "Microsoft Edge Extension Developer : Anouar Es-sayid",
     "version": "1.0",
     "description": "Cancel friend requests sent on linkedin",
     "permissions": [
       "*://www.linkedin.com/mynetwork/invitation-manager/sent/*",
-      "tabs"
+      "tabs",
+      "scripting"
     ], 
-    "browser_action": {
+    "action": {
       "default_icon": {
         "20": "src/images/linkedin.png",
         "40": "src/images/linkedin.png"
