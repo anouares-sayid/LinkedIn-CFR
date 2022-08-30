@@ -4,10 +4,12 @@
     "version": "1.0",
     "description": "Cancel friend requests sent on linkedin",
     "permissions": [
-      "*://www.linkedin.com/mynetwork/invitation-manager/sent/*",
       "tabs",
       "scripting"
     ], 
+    "host_permissions": [
+      "*://www.linkedin.com/mynetwork/invitation-manager/sent/*"
+    ],
     "action": {
       "default_icon": {
         "20": "src/images/linkedin.png",
