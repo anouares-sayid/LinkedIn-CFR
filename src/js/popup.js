@@ -162,7 +162,7 @@ function Start(type, number) {
       
       
       if (number > people.length && number <= totalfollowreq) {
-         console.log("restating");
+        console.log("going....");
          for (j = 0; j <= people.length - 1; j++) {
           if (count < number) {
               count++;
@@ -172,6 +172,7 @@ function Start(type, number) {
       }
           setTimeout(() => {
               waitForElement(".invitation-card__action-btn", 3550 * people.length).then(function() {
+                  console.log("restating....");
                   Start(type, number - people.length);
               }).catch(() => {
                   console.log("element did not load in " + 3550 * people.length + " seconds");
